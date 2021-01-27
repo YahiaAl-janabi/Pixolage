@@ -1,9 +1,9 @@
 @mixin bodyP() {
   font-family: "Roboto", sans-serif;
-  width: 100vw;
+  width: 100%;
   height: auto;
   background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
+
   color: #fff;
   text-decoration: none;
 }
@@ -15,13 +15,14 @@
     @include bodyP();
 
     .container1 {
-      position: relative;
       background: #141414;
+      position: relative;
+
       display: grid;
-      grid-gap: 2px;
+      grid-gap: 0rem;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      height: 13vh;
+      height: 12vh;
 
       nav {
         position: absolute;
@@ -120,24 +121,19 @@
       position: relative;
       background: #000;
       display: grid;
-      grid-gap: 2px;
+      grid-gap: 0rem;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      height: 87vh;
+      height: 60vh;
 
       .pixolageimage {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin: auto;
+        margin: 0 auto;
+        margin-top: 5rem;
         width: 5rem;
       }
       .headline {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        margin-bottom: 10rem;
         line-height: 6rem;
         background-image: linear-gradient(90deg, #3a3a3e, #eff1ff, #3a3a3e);
         background-size: 100%;
@@ -149,13 +145,82 @@
         text-align: center;
         font-size: 4rem;
         color: #c5c7d2;
-        margin: auto;
         padding: 1rem;
         .spana1 {
-          font-size: 2.5rem;
+          font-size: 3rem;
         }
         .spana2 {
           font-family: Lato;
+        }
+      }
+    }
+    .container3 {
+      position: relative;
+      background: #000;
+      display: grid;
+      grid-gap: 0rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      height: 100vh;
+
+      .c3d1 {
+        margin: 0 auto;
+        text-align: center;
+
+        .c3d1key {
+          margin-top: 10rem;
+          width: 7rem;
+        }
+
+        .c3d1h3 {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+
+        .c3d1para {
+          line-height: 1.5rem;
+          color: #f7f5f5;
+          margin: auto;
+          margin-top: 1rem;
+          width: 90%;
+        }
+
+        .c3d1pro {
+          margin-top: 1rem;
+          width: 90%;
+        }
+      }
+
+      .c3d2 {
+        color: #f7f5f5;
+        margin: 0 auto;
+        text-align: center;
+        .c3d2features {
+          letter-spacing: 0.1rem;
+          font-weight: 600;
+          margin-top: 1rem;
+          font-size: 2.5rem;
+        }
+        .c3d2scale {
+          margin-top: 7rem;
+          width: 7rem;
+        }
+
+        .c3d2h3 {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+
+        .c3d2para {
+          line-height: 1.5rem;
+          margin: auto;
+          margin-top: 1rem;
+          width: 90%;
+        }
+
+        .c3d2scalepic {
+          margin-top: 1rem;
+          width: 90%;
         }
       }
     }

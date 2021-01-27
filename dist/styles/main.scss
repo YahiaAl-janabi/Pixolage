@@ -16,20 +16,21 @@
 
     .container1 {
       position: relative;
-      background: #000;
+      background: #141414;
       display: grid;
       grid-gap: 2px;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      height: 100vh;
+      height: 13vh;
 
       nav {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        color: #f7f5f5;
         letter-spacing: 0.1rem;
         font-size: 1rem;
-
         margin: auto;
-        margin-top: 1rem;
-        margin-right: 1rem;
         padding: 1rem;
         ul {
           background-color: violet;
@@ -40,10 +41,12 @@
           }
         }
       }
-
-      .con1button1 {
+      .con2button1 {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
         color: white;
-        font-size: 17px;
+        font-size: 1rem;
         cursor: pointer;
         display: inline-block;
         text-align: center;
@@ -51,23 +54,27 @@
         border: none;
         letter-spacing: -0.022rem;
         border-radius: 2rem;
-        background: #0071e3;
+        background: #127f75;
         font-weight: bold;
         width: 12rem;
         margin: auto;
-        margin-top: -58.4rem;
-        margin-left: 1.5rem;
         padding: 1rem;
         .contd1 {
           margin: auto;
           margin-top: 0.2rem;
           width: 1.5rem;
         }
+        &:hover {
+          background-color: #17aa9d;
+        }
       }
 
-      .con1button2 {
+      .con2button2 {
+        position: absolute;
+        top: 2rem;
+        left: 16rem;
         color: white;
-        font-size: 17px;
+        font-size: 1rem;
         cursor: pointer;
         display: inline-block;
         text-align: center;
@@ -75,26 +82,62 @@
         border: none;
         letter-spacing: -0.022rem;
         border-radius: 2rem;
-        background: #0071e3;
+        background: #127f75;
         font-weight: bold;
-        width: 12rem;
+        width: 10rem;
         margin: auto;
-        margin-top: -58.5rem;
-        margin-left: 15.5rem;
+
         padding: 1rem;
         .contd1 {
           margin: auto;
           margin-top: 0.2rem;
           width: 1.5rem;
         }
+        &:hover {
+          background-color: #17aa9d;
+        }
       }
+      .bith1 {
+        position: absolute;
+        top: 2rem;
+        left: 28rem;
+        color: #f7f5f5;
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem;
+
+        .conwin {
+          float: right;
+          display: block;
+          width: 1.4rem;
+          margin-left: 0.5rem;
+          margin-top: -0.2rem;
+        }
+      }
+    }
+
+    .container2 {
+      position: relative;
+      background: #000;
+      display: grid;
+      grid-gap: 2px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      height: 87vh;
 
       .pixolageimage {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         margin: auto;
-        margin-top: -45rem;
         width: 5rem;
       }
       .headline {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         line-height: 6rem;
         background-image: linear-gradient(90deg, #3a3a3e, #eff1ff, #3a3a3e);
         background-size: 100%;
@@ -107,10 +150,9 @@
         font-size: 4rem;
         color: #c5c7d2;
         margin: auto;
-        margin-top: -40rem;
         padding: 1rem;
         .spana1 {
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
         .spana2 {
           font-family: Lato;

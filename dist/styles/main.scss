@@ -164,6 +164,7 @@
       height: 100vh;
 
       .c3d1 {
+        color: #f7f5f5;
         margin: 0 auto;
         text-align: center;
 
@@ -179,7 +180,6 @@
 
         .c3d1para {
           line-height: 1.5rem;
-          color: #f7f5f5;
           margin: auto;
           margin-top: 1rem;
           width: 90%;
@@ -219,6 +219,33 @@
         }
 
         .c3d2scalepic {
+          margin-top: 1rem;
+          width: 90%;
+        }
+      }
+      .c3d3 {
+        color: #f7f5f5;
+        /* margin: 0 auto;*/
+        text-align: center;
+
+        .c3d3performance {
+          margin-top: 10rem;
+          width: 7rem;
+        }
+
+        .c3d3h3 {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+
+        .c3d3para {
+          line-height: 1.5rem;
+          margin: auto;
+          margin-top: 1rem;
+          width: 90%;
+        }
+
+        .c3d3perfpic {
           margin-top: 1rem;
           width: 90%;
         }

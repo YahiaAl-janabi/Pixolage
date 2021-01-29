@@ -165,9 +165,8 @@
 
       .c3d1 {
         color: #f7f5f5;
-        margin: 0 auto;
         text-align: center;
-
+        margin: 0 auto;
         .c3d1key {
           margin-top: 10rem;
           width: 7rem;
@@ -260,6 +259,24 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       height: 30vh;
+
+      .c4d1 {
+        color: #f7f5f5;
+        text-align: center;
+        .c4d1tag {
+          width: 4rem;
+        }
+        .c4d1h3 {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+        .c4d1p {
+          line-height: 1.5rem;
+          margin: auto;
+          margin-top: 1rem;
+          width: 90%;
+        }
+      }
     }
   }
 }
